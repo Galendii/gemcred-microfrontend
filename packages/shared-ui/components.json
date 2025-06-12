@@ -1,0 +1,17 @@
+{
+    "components": [
+      {
+        "name": "Button",
+        "path": "Button.tsx",
+        "version": "1.0.0",
+        "description": "Botão padrão estilizado com Tailwind"
+      },
+      {
+        "name": "Modal",
+        "path": "Modal.tsx",
+        "version": "1.0.0",
+        "description": "Modal reutilizável com animação"
+      }
+    ]
+  }
+  
