@@ -24,6 +24,8 @@ Cada microfrontend é um Next.js app autônomo, com seu próprio pacote, exposto
 ```
 pnpm install
 ```
+
+### Microfrontends separados
 2. Rode os microfrontends em terminais separados:
 ```
 pnpm --filter simulador dev
@@ -34,6 +36,13 @@ pnpm --filter assistente dev
 pnpm --filter shell dev
 ```
 4. Acesse `http://localhost:3000`
+
+### Microfrontends integrados
+2. Rode a aplicação shell:
+```
+pnpm dev
+```
+3. Acesse `http://localhost:3000`
 
 ## PWA e Offline
 
